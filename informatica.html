@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BCursos Online - Sobre empresa</title>
+	<meta charset="utf-8">
+	<!-- width=device-width, initial-scale=1, shrink-to-fit=no-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	
+
+	<link rel="shortcut icon" type="text/css" href="imagens/icon.png">
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+		<div class="container">
+			<a href="index.htmal" title="Página Inicial" class="navbar-brand">
+				<img src="imagens/logo.png" alt="BCursos">
+			</a>
+
+			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="menu">
+				 <ul class="navbar-nav ml-auto">
+				 	<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+				 	<li class="nav-item"><a class="nav-link" href="empresa.html">Quem Somos</a></li>
+				 	<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" >Cursos</a>
+				 		<div class="dropdown-menu">
+				 			<a href="culinaria.html" class="dropdown-item">Culinaria</a>
+				 			<a href="informatica.html" class="dropdown-item" >Informatica</a>
+				 		</div>
+				 	</li>
+				 	<a href="contato.html" class="nav-link" data-toggle="modal" data-target="#modal">Contato</a>
+				 </ul>
+			</div><!-- collapse -->
+		</div><!-- container -->
+	</nav>
+		<main>
+			<div class="container">
+				<h1 class="text-center ">Cursos de Programaçao</h1>
+				<div class="row">
+					<div class="col wow fadeInLeft">
+						<img src="imagens/informatica.jpg" alt="curso hamburger" title="curso hamburger" class="img-thumbnail w-100">
+					</div>
+					<div class="col wow fadeInRight">
+						<p><h2>Sobre o curso</h2>
+						<h3>Áreas • Swifit</h3>
+
+						este curso é destinado para quem já tem conhecimento no paradigma de orientação a objetos e quer aprender a fazer seu aplicativo iOS, utilizando os padrões recomendados pela Apple e boas práticas exigidas pelo mercado.
+
+						</p>
+						<button type="submit" class="btn btn-primary">
+							Ver Curso
+						</button>
+					</div><!-- col-->
+				</div><!-- row-->
+				<br>
+				<div class="row">
+					<div class="col wow fadeInLeft">
+						<img src="imagens/informatica2.jpg" alt="Sobre BCursos" title="Sobre BCursos" class="img-thumbnail w-100">
+					</div>
+					<div class="col wow fadeInRight">
+						<p><h2>Sobre o curso</h2>
+							<h3>Áreas • Android </h3>
+
+							Desde o seu lançamento, o Android vem ganhando mercado, e hoje domina o cenário de sistemas operacionais móveis. Todo este domínio torna imprescindível empresas desenvolverem para esta plataforma, requerendo cada vez mais profissionais.
+
+							Atualmente é fundamental que todo programador conheça essa plataforma, entendendo o seu funcionamento, bem como o comportamento dos seus aplicativos.</p>
+							<button type="submit" class="btn btn-primary">
+							Ver Curso
+						</button>
+					</div><!-- col-->
+				</div><!-- row-->
+			</div><!--container-->
+			<br>
+		</main>
+		
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<script type="text/javascript">
+		new WOW().init();
+	</script>
+<br>
+	<footer class="bg-dark float-left w-100">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center wow fadeInLeft">
+					<i class="fas fa-map-marker-alt"></i>
+					<p>Av Brasil 1680, Alto Piquiri - PR</p>
+				</div>
+				<div class="col text-center wow fadeIn">
+					<i class="fas fa-mobile-alt"></i>
+					<p>(44) 8839-4805</p>
+				</div>
+				<div class="col text-center wow fadeInRight">
+					<i class="fas fa-envelope">
+					</i>
+					<p>diogo.vanderlan@gmail.com</p>
+				</div>
+			</div><!--row-->
+			<hr>
+			<p class="float-left"> 2018 - todos os direitros reservados</p>
+			<p class="float-right">
+				<a href="http://facebook.com.br">
+					<i class="fab fa-facebook"></i>
+				</a>
+				<a href="http://twitter.com.br">
+					<i class="fab fa-twitter"></i>
+				</a>
+				<a href="http://instagram.com">
+					<i class="fab fa-instagram"></i>
+				</a>
+			</p>
+		</div><!--container-->
+
+	</footer>
+	<form action="https://formspree.io/diogo.vanderlan@gmail.com"
+      method="POST"> 
+ 
+
+		<div class="modal fade" id="modal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h2>Entre em Comtato</h2>
+					</div><!-- header-->
+					<div class="modal-body">
+
+						<input type="text" name="name"  class="form-control"  required placeholder="Digite seu nome">
+
+					    <input type="email" name="_replyto"  class="form-control" required placeholder="Digite seu email">
+					   
+
+					    <textarea name="mensagem" class="form-control" required placeholder="Digite sua mensagem" rows="5">
+					    	
+					    </textarea>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">
+							Fechar
+						</button>
+						<button type="submit" class="btn btn-success">
+							Enviar
+						</button>
+					</div><!--foooter-->
+				</div><!--contener-->
+				
+			</div>
+		</div>
+
+</form>
+</body>
+</html>
